@@ -6,7 +6,9 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-
+/**
+* Siva added the author role
+**/
 public class NetClientGet {
 
 	// http://localhost:8080/RESTfulExample/json/product/get
