@@ -1,5 +1,9 @@
 package com.mkyong.rest.client;
 
+
+
+/**
+**/
 public class JestClientExample {
 
 	public static void main(String[] args) {
