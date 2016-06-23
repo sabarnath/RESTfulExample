@@ -1,3 +1,4 @@
 #ignore some of the files here.
 .project
 .classpath
+test.txt
