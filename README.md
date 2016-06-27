@@ -1,1 +1,1 @@
-# Traning for RESTful service .
+# Training for RESTful service .
