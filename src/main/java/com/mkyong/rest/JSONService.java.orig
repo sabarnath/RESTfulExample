@@ -1,6 +1,11 @@
 package com.mkyong.rest;
+<<<<<<< HEAD
+/** 
+**/
+=======
 /**
  **/
+>>>>>>> eb4497bd297e6354cc81d51c9537b938d59e744c
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -15,7 +20,7 @@ public class JSONService {
 	@Path("/get")
 	@Produces("application/json")
 	public Product getProductInJSON() {
-               System.out.println("just for fun ......");  
+
 		Product product = new Product();
 		product.setName("iPad 3");
 		product.setQty(999);
@@ -28,7 +33,7 @@ public class JSONService {
 	@Path("/post")
 	@Consumes("application/json")
 	public Response createProductInJSON(Product product) {
-                System.out.println("Duplicate in local code ......");
+
 		String result = "Product created : " + product;
 		return Response.status(201).entity(result).build();
 		
