@@ -28,7 +28,7 @@ public class JSONService {
 	@Path("/post")
 	@Consumes("application/json")
 	public Response createProductInJSON(Product product) {
-
+		System.out.println("Hello All ......");
 		String result = "Product created : " + product;
 		return Response.status(201).entity(result).build();
 		
